@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+.header {
+    margin-top: 1rem;
+}
+
+.container {
+    max-width: 60rem;
+    height: 100px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-title {
+    margin-top: 1rem;
+}
+
+.comment {
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+.row h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+}
+
+.description {
+    width: 18rem;
+    margin-top: 0.5rem;
+}
+
+
+.spacer {
+    padding-top: 4rem;
+}
+/* CREW */
+
+
+
+
+.img-row {
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.st-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.img-row h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.image {
+    width: 15rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .image {
+        max-width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 394px) {
+    .image {
+        max-width: 5rem;
+    }
+}
+
+.vertical-text h4{
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.st-row:nth-child(2) {
+    padding-top: 5rem;
+}
+
+.st-row:nth-child(5) {
+    padding-top: 5rem;
+}
+
+@media only screen and (max-width: 840px) {
+    .st-row:nth-child(2) {
+        padding-top: 0rem;
+    }
+    
+    .st-row:nth-child(5) {
+        padding-top: 0rem;
+    }
+
+    .st-row:nth-child(even) {
+        padding-top: 5rem;
+    }
+}
